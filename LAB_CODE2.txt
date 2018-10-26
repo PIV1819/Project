@@ -10,7 +10,7 @@ for i=1:length(d),
     imshow(uint8(imgs(:,:,i)));
     figure(2);
     imagesc(imgsd(:,:,i));
-    %colormap(gray);
+    %colormap(gray);as
     pause(1);
 end
 %%
